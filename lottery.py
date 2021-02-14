@@ -1,5 +1,5 @@
 import random
-if int(input()) == random.randint(1, 10):
-    print("YOU WoN")
+if int(input()) == random.randint(0,9):
+    print("You Won")
 else:
-    print("you lost")
+    print("You lost")
